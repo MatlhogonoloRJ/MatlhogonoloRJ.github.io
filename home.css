@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(rgba(247, 198, 129, 0.9),rgba(247, 198, 129, 0.9)),url(img10.jpeg);
+    background-position: center;
+    background-size: 100%;    
+    background-repeat: no-repeat;
+    height: 10vh;
+    max-width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.logo{
+    margin-left: 25px;
+    margin-top: 30px;
+    float: left;  
+    padding-bottom: 10px; 
+    margin-bottom: 10px;
+    padding-left: -15px;
+}
+.logo img{
+    height: 10vh
+}
+.nav ul{ 
+    display: flex;
+    margin-top: 45px;
+    margin-left: -400px;
+    margin-bottom: 50px;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: rgba(0,0,0,0.9);
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 30px;
+}
+.nav ul li a:hover{
+    color: blue;
+    font-weight: bold;
+    font-size: x-large;
+}
+.user{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+.user a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(247, 198, 129, 0.9);
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.user a:hover{
+    background-color: blue;
+    color: white;
+}
+
+.user input{
+    margin-left: -500px;
+    padding: 5px 20px;
+    font-size: medium;
+}
+.heropage{
+    position: absolute;
+    color: rgba(0,0,0,0.9);
+    margin-top: 100px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.inside-heropage{
+    line-height: 1;
+    margin-top: -2px;
+}
+.inside-heropage p{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.btn1{
+    margin-top: 30px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.9);
+    padding: 10px 25px;
+    background-color:  rgba(247, 198, 129, 0.9);
+}
+.btn1 a:hover{
+    background: rgba(0,0,0,0.9);
+    color: rgba(52, 58, 239, 0.9);
+}
+.Popular{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    margin-top: 500px;
+    padding: 0px 20px;
+}
+.Popular h1{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+    margin-top: -90px;
+    padding-left: 8px;
+}
+.Popular-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: white;
+}
+.Popular-inside img{
+    height: 290px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+.Popular-inside img:hover{
+    transform: scale(1.2);
+}
+.heading1{ 
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 1.5;
+}
+.heading1 h4{
+    font-size: 15px;
+}
+.btn2{
+    margin-top: -30px;
+    margin-left: 100px;
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 13px;
+    background-color: rgba(247, 198, 129, 0.9);;
+    padding: 5px 4px;
+    border-radius: 10%;
+    color: rgba(0, 0, 0, 0.9);
+}
+.more1{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 1420px;
+}
+.more1 a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.footer{
+    position:absolute;
+    margin-top: 820px;
+    height: 12vh;
+    color: black;
+    background: rgba(247, 198, 129, 0.9);
+    width: 100%;
+    margin-bottom: 100px;
+}
+.logopart img{
+    height: 12vh;
+    margin-top: 5px;
+    margin-left: 70px;
+    
+}
+.footer-container{
+   display: flex;
+   align-items: center;
+}
+.copyright{
+    font-size: 20px;
+    margin-top: -60px;
+    font-weight: 500;
+}
+
